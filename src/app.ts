@@ -4,7 +4,7 @@
 * Copyright: 2024, Stark Ernő
 * Group: SZOFT II/2/E
 * Date: 2024-11-26
-* Github: https://github.com/ernostark
+* Github: https://github.com/ernostark/0312
 * Licenc: GNU GPL
 */
 
