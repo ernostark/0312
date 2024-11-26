@@ -1,0 +1,51 @@
+<!--
+File: index.html
+Author: Stark Ernő
+Copyright: 2024, Stark Ernő
+Group: SZOFT II/2/E
+Date: 2024-11-26
+Github: https://github.com/ernostark
+Licenc: GNU GPL
+-->
+
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rombusz</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rombuszba írható kör sugara</h1>
+      
+      <div class="korForm">
+
+        <div class="form-group">
+          <label for="side" class="form-label">A Rombusz oldalának hossza</label>
+          <input type="text" id="side" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="alpha" class="form-label mt-2">A rombusz két szomszédos oldal által bezárt szög fokban</label>
+          <input type="text" id="alpha" class="form-control">
+        </div>
+
+        <div>
+          <button id="calcButton" class="btn btn-primary mt-4">Számítás</button>
+        </div>
+
+        <div class="form-group">
+          <label for="result" class="form-label mt-4">A kör sugara</label>
+          <input type="text" id="result" class="form-control">
+        </div>
+      
+      </div>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
